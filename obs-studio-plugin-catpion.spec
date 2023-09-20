@@ -1,7 +1,7 @@
 %global srcname obs-catpion
-%global commit 1345a0801c110356292b94fd371b29c1a24a4c27
+%global commit c4f4f7a6dc5fb404d910fc6061f78c11a6691c00
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
-%global commitdate 20230917
+%global commitdate 20230920
 
 Name:           obs-studio-plugin-catpion
 Version:        0~git%{commitdate}.%{shortcommit}
