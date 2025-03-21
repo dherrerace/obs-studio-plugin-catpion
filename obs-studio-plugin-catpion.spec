@@ -14,7 +14,7 @@ Source0:        %{url}/archive/%{commit}/%{srcname}-%{shortcommit}.tar.gz
 
 BuildRequires:  cmake
 BuildRequires:  g++
-BuildRequires:  pkgconfig(libobs)
+BuildRequires:  cmake(libobs)
 BuildRequires:  pkgconfig(pango)
 BuildRequires:  pkgconfig(libpipewire-0.3)
 BuildRequires:  pkgconfig(april-asr)
